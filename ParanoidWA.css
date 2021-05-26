@@ -15,53 +15,51 @@
         --bg: #2E3440;
     }
 
-    .dark
+     .dark
     {
-        --icon: icons !important;
-        --panel-header-icon: icons !important;
-        --dropdown-background: accentO !important;
-        --dropdown-background-hover: mainO !important;
-        --outgoing-background: accent !important;
-        --outgoing-background-deeper: main !important;
-        --outgoing-background-highlight: text1 !important;
-        --incoming-background: bg !important;
-        --incoming-background-deeper: bg !important;
-        --incoming-background-highlight: text1 !important;
+        --icon: #c4cad3 !important;
+        --panel-header-icon: #c4cad3 !important;
+        --dropdown-background: #4b7f7d8f !important;
+        --dropdown-background-hover: #3458598f !important;
+        --outgoing-background: #4b7f7d !important;
+        --outgoing-background-deeper: #345859 !important;
+        --outgoing-background-highlight: #c4cad3 !important;
+        --incoming-background: #2E3440 !important;
+        --incoming-background-deeper: #2E3440 !important;
+        --incoming-background-highlight: #c4cad3 !important;
         --primary-muted: grey !important;
-        --primary: text1 !important;
-        --primary-strong: text1 !important;
-        --primary-title: text1 !important;
+        --primary: #c4cad3 !important;
+        --primary-strong: #c4cad3 !important;
+        --primary-title: #c4cad3 !important;
         --background-default: transparent !important;
-        --background-default-active: accent !important;
-        --background-default-hover: mainO !important;
+        --background-default-active: #4b7f7d !important;
+        --background-default-hover: #3458598f !important;
         --modal-backdrop: rgba(47, 47, 47, .44) !important;
-        --button-primary: text1 !important;
-        --button-primary-background: accent !important;
-        --button-primary-background-hover: accent2 !important;
+        --button-primary: #c4cad3 !important;
+        --button-primary-background: #4b7f7d !important;
+        --button-primary-background-hover: #589593 !important;
         --button-round-background: #f00!important;
-        --button-secondary: text1 !important;
-        --button-secondary-border: accent !important;
+        --button-secondary: #c4cad3 !important;
+        --button-secondary-border: #4b7f7d !important;
         --button-secondary-background: transparent;
-        --button-secondary-hover: accent2 !important;
+        --button-secondary-hover: #589593 !important;
         --overlay: rgba(47, 47, 47, .44) !important;
-        --panel-background: mainO !important;
+        --panel-background: #3458598f !important;
         --panel-header-background: transparent !important;
-        --typing: text2 !important;
-        --teal: text3 !important;
-        --message-primary: text1 !important;
-        --panel-primary: mainO !important;
-        --rich-text-panel-background: mainO !important;
+        --typing: #abb1b9 !important;
+        --teal: #e4eefd !important;
+        --message-primary: #c4cad3 !important;
+        --panel-primary: #3458598f !important;
+        --rich-text-panel-background: #3458598f !important;
         --butterbar-connection-background: transparent !important;
         --startup-background: #131c21;
-        --startup-background-rgb: 18.6, 28.22, 33.4;
         --startup-icon: #6c7175;
-        --startup-icon-rgb: 108, 113, 117;
-        --status-background: main !important;
+        --status-background: #345859 !important;
         --status-background-hover: #242424;
-        --status-primary: text1 !important;
-        --status-secondary: text2 !important;
-        --active-tab-marker: accent !important;
-        --panel-input-background: accentO !important;
+        --status-primary: #c4cad3 !important;
+        --status-secondary: #abb1b9 !important;
+        --active-tab-marker: #4b7f7d !important;
+        --panel-input-background: #4b7f7d8f !important;
     }
 
 
