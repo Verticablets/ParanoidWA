@@ -12,8 +12,8 @@
  
 @var color    main      'main colour' #345859 
 @var color    accent      'accent colour' #4b7f7d
-@var color    mainO    'main transparent colour' #3458598f
-@var color    accentO      'accent transparent colour' #4b7f7d8f
+@var color    mainO    'main colour' #3458598f
+@var color    accentO      'accent colour' #4b7f7d8f
 @var color    accent2      'accent colour hover'  #589593
 @var color    bg     'background colour' #2E3440
 @var color    icons     'icons colour' #c4cad3
@@ -35,7 +35,6 @@
         --icons: icons;
         --text1: text1;
         --text2: text2;
-        --text3: text3;
         --bg: bg;
         --url: url;
     }
@@ -276,9 +275,7 @@
 
 
     /*messages*/
-    .message-in ._1bUzr,
-    {
-        left: -8px !important;
+._1bUzr {
         display: none !important;
     }
 

@@ -121,13 +121,13 @@
 
     ._3QfZd:after
     {
-        background: url((url)) no-repeat center center fixed !important;
+        background: url("/*[[https:null]]*/") no-repeat center center fixed !important;
         background-color: transparent !important;
     }
 
     .dark
     {
-        background: url((url)) no-repeat center center fixed !important;
+        background: url("/*[[https:null]]*/") no-repeat center center fixed !important;
         --app-background: transparent;
     }
 
@@ -251,9 +251,7 @@
 
 
     /*messages*/
-    .message-in ._1bUzr,
-    {
-        left: -8px !important;
+._1bUzr {
         display: none !important;
     }
 
