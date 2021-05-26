@@ -1,0 +1,360 @@
+/* ==UserStyle==
+@name           ParanoidWA
+@namespace      Verticablets
+@version        1.0.0
+@description    A customizable semi-transparent theme for WhatsApp.
+@author         Verticablets (https://linktr.ee/verticablets)
+@homepageURL  	https://github.com/Verticablets/ParanoidWA
+@supportURL	https://github.com/Verticablets/ParanoidWA/issues
+@license	CC BY
+@preprocessor stylus
+
+ 
+@var color    main      'main colour' #345859 
+@var color    accent      'accent colour' #4b7f7d
+@var color    mainO    'main transparent colour' #3458598f
+@var color    accentO      'accent transparent colour' #4b7f7d8f
+@var color    accent2      'accent colour hover'  #589593
+@var color    bg     'background colour' #2E3440
+@var color    icons     'icons colour' #c4cad3
+@var color   text1     'text1 colour' #c4cad3
+@var color   text2     'second text colour' #abb1b9
+@var color   text3     'third text colour' #e4eefd
+@var text     url   "Background image" "'https://live.staticflickr.com/6070/6083152533_66afe78919_o_d.jpg'"
+==/UserStyle== */
+@-moz-document domain("whatsapp.com")
+{
+
+    :root
+    {
+        --main: main;
+        --accent: accent;
+        --mainO: mainO;
+        --accentO: accentO;
+        --accent2: accent2;
+        --icons: icons;
+        --text1: text1;
+        --text2: text2;
+        --text3: text3;
+        --bg: bg;
+        --url: url;
+    }
+
+    .dark
+    {
+        --icon: icons !important;
+        --panel-header-icon: icons !important;
+        --dropdown-background: accentO !important;
+        --dropdown-background-hover: mainO !important;
+        --outgoing-background: accent !important;
+        --outgoing-background-deeper: main !important;
+        --outgoing-background-highlight: text1 !important;
+        --incoming-background: bg !important;
+        --incoming-background-deeper: bg !important;
+        --incoming-background-highlight: text1 !important;
+        --primary-muted: grey !important;
+        --primary: text1 !important;
+        --primary-strong: text1 !important;
+        --primary-title: text1 !important;
+        --background-default: transparent !important;
+        --background-default-active: accent !important;
+        --background-default-hover: mainO !important;
+        --modal-backdrop: rgba(47, 47, 47, .44) !important;
+        --button-primary: text1 !important;
+        --button-primary-background: accent !important;
+        --button-primary-background-hover: accent2 !important;
+        --button-round-background: #f00!important;
+        --button-secondary: text1 !important;
+        --button-secondary-border: accent !important;
+        --button-secondary-background: transparent;
+        --button-secondary-hover: accent2 !important;
+        --overlay: rgba(47, 47, 47, .44) !important;
+        --panel-background: mainO !important;
+        --panel-header-background: transparent !important;
+        --typing: text2 !important;
+        --teal: text3 !important;
+        --message-primary: text1 !important;
+        --panel-primary: mainO !important;
+        --rich-text-panel-background: mainO !important;
+        --butterbar-connection-background: transparent !important;
+        --startup-background: #131c21;
+        --startup-background-rgb: 18.6, 28.22, 33.4;
+        --startup-icon: #6c7175;
+        --startup-icon-rgb: 108, 113, 117;
+        --status-background: main !important;
+        --status-background-hover: #242424;
+        --status-primary: text1 !important;
+        --status-secondary: text2 !important;
+        --active-tab-marker: accent !important;
+        --panel-input-background: accentO !important;
+    }
+
+
+    /*intro*/
+    ._2zkCi
+    {
+        padding-top: 28px;
+        padding-bottom: 28px;
+        cursor: default;
+        background-color: var(--mainO) !important;
+    }
+
+    /*header-right*/
+    .dark ._1-qgF
+    {
+        background-color: var(--mainO) !important;
+        backdrop-filter: blur(4px) !important;
+        -webkit-backdrop-filter: blur(4px) !important;
+        border: 0px !important;
+        border-radius: 0 0 50px 50px !important;
+    }
+
+    ._1-qgF
+    {
+        position: fixed;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 59px;
+    }
+
+    /*header-left*/
+    ._1R3Un
+    {
+        background-color: transparent !important;
+        top: 0px !important;
+        border: 0px !important;
+    }
+
+
+    /*chats*/
+    ._3U29Q,
+    .F-0gY
+    {
+        background-color: transparent !important;
+    }
+
+    ._3QfZd,
+    ._3-dtC,
+    ._1Flk2,
+    ._2DPZK,
+    ._1pQBW
+    {
+        background-color: transparent !important;
+    }
+
+    ._3QfZd:after
+    {
+        background: url((url)) no-repeat center center fixed !important;
+        background-color: transparent !important;
+    }
+
+    .dark
+    {
+        background: url((url)) no-repeat center center fixed !important;
+        --app-background: transparent;
+    }
+
+    /*chats*/
+    /*drawer profile*/
+    ._2heqZ
+    {
+        background-color: transparent !important;
+    }
+
+    .OMoBQ
+    {
+        background-color: var(--mainO) !important;
+        backdrop-filter: blur(8px) !important;
+        -webkit-backdrop-filter: blur(8px) !important;
+    }
+
+    ._36Jt6
+    {
+        background-color: transparent !important;
+    }
+
+    ._3ZEdX
+    {
+        background-color: transparent !important;
+    }
+
+
+
+    /*search bg*/
+    div.SgIJV
+    {
+        background-color: transparent !important;
+    }
+
+    .dark ._3LX7r
+    {
+        width: 260px !important;
+        border: 0px !important;
+        left: 50px !important;
+    }
+
+    /*search bg 1*/
+    .RPX_m
+    {
+        background-color: var(--accentO) !important;
+        border-radius: 18px;
+    }
+
+    ._3LX7r._1brJQ
+    {
+        background-color: transparent !important;
+        box-shadow: 0 2px 3px transparent;
+    }
+
+    .dark ._3LX7r._1brJQ
+    {
+        border-bottom: 0px !important;
+    }
+
+    .-lcoh
+    {
+        background-color: transparent !important;
+    }
+
+    /*convos bg */
+    ._1Flk2._2DPZK._1pQBW
+    {
+        background-color: var(--mainO) !important;
+        backdrop-filter: blur(8px) !important;
+        -webkit-backdrop-filter: blur(8px) !important;
+    }
+
+    /*convos bg transparent */
+    ._1C2Q3.F-0gY
+    {
+        background-color: transparent !important;
+    }
+
+    ._2Z4DV
+    {
+        background-color: transparent !important;
+    }
+
+    .JnmQF._3QmOg
+    {
+        background-color: transparent !important;
+    }
+
+    /* input bg */
+    .vR1LG._3wXwX
+    {
+        background-color: var(--mainO) !important;
+    }
+
+    ._2A8P4
+    {
+        background-color: var(--accentO) !important;
+        border: 0px solid var(--bg) !important;
+    }
+    .vR1LG
+    {
+        background-color: transparent!important;
+        border-radius: 30px 30px 0px 0px !important;
+    }
+    ._3uxr9 {
+        background-color: rgba(224, 1, 1, 0)!important;
+}
+
+
+    /* dropdowns */
+    ._1qAEq
+    {
+        border-radius: 30px 30px 30px 30px!important;
+        backdrop-filter: blur(4px) !important;
+        -webkit-backdrop-filter: blur(4px) !important;
+    }
+
+
+
+
+
+    /*messages*/
+    .message-in ._1bUzr,
+    {
+        left: -8px !important;
+        display: none !important;
+    }
+
+    .message-out ._1bUzr
+    {
+        display: none !important;
+    }
+
+    .message-in,
+    ._1-U5A,
+    ._3XpKm
+    {
+        border-radius: 10px !important;
+    }
+
+    /*dropdown hover bg*/
+    ._3UHfW.H774S
+    {
+        border-radius: 10px !important;
+    }
+
+
+
+
+
+
+
+    /*date*/
+    ._2kR4B
+    {
+        position: relative !important;
+        text-align: center;
+        background-color: VAR(--accentO) !important;
+        border-radius: 10px !important;
+        backdrop-filter: blur(4px) !important;
+        -webkit-backdrop-filter: blur(4px) !important;
+    }
+
+    ._24wtQ
+    {
+        flex: none;
+        font-size: 14.2px;
+        line-height: 19px;
+        color: var(--message-primary);
+        bottom: -50px;
+    }
+
+    /*chat bg image*/
+    .IeYBo
+    {
+        display: none !important;
+        background-color: transparent !important;
+        color: transparent !important;
+    }
+
+    /*chat bg */
+    ._3AUV4
+    {
+        background: url((url)) no-repeat center center fixed !important;
+        background-size: cover !important;
+        background-color: var(--bg) !important;
+    }
+
+    /*mute modal */
+    ._3NCh_
+    {
+        padding: 22px 24px 20px;
+        background-color: var(--mainO) !important;
+        border-radius: 30px !important;
+    }
+
+    /*emoji-picker*/
+    ._12FEz
+    {
+        border-radius: 30px 30px 0px 0px !important;
+        width: 94% !important;
+        margin-left: 20px !important;
+    }
+}
