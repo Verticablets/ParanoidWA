@@ -13,7 +13,7 @@ _v1.0.0_
 
 You have to install [Stylus](https://add0n.com/stylus.html) and then click on the install link below.
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/Verticablets/ParanoidGram/raw/main/ParanoidGram.user.css)
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/Verticablets/ParanoidWA/raw/main/ParanoidWA.user.css)
 
 #### Initial configuration
 To customize colors and/or other features, follow these instructions:
