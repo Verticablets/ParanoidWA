@@ -4,8 +4,6 @@ A customizable semi-transparent theme for [Whatsapp Web](https://web.whatsapp.co
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/Verticablets/ParanoidWA/raw/main/ParanoidWA.user.css)
 
 
-<img src="https://raw.githubusercontent.com/Verticablets/ParanoidWA/main/Preview/paranoidwaprev.jpg" width="100%"/>
-
 _v1.0.0_
 
 
